@@ -1,0 +1,47 @@
+h2.num {
+    font-family: "fir sans", monospace; 
+    font-size: 35px;
+    color: #B36076;
+
+}
+
+h2 {
+    color: white;
+    font-family: "DM sans", sans-serif;
+    font-size: 35px;
+
+}
+p {
+    color: white;
+    font-family: "DM sans", sans-serif;
+    font-size: 20px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 500px;
+    margin-top: 10rem;
+}
+
+.about-me .num {
+    margin: 0;
+    margin-right: 50px;
+    align-self: flex-start;
+}
+
+.about-me img {
+    margin-left: 50px;
+}
+
+.about-me .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.about-me .content h2 {
+    margin: 0;
+}

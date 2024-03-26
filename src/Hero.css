@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+    font-family: "DM sans", sans-serif;
+
+}
+p {
+    color: white;
+    font-family: "DM sans", sans-serif;
+}
+
+#apostrophe {
+    color: #F4D06F;
+}
+
+#period {
+    color: #B36076;
+} 
+
+#hero {
+    color: #5DA474;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    align-items: flex-end;
+    line-height: 1.5;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.left {
+    width: 100%;
+}
+
+.hero img {
+    width: 500px;
+}
+
+.left h1 {
+    font-size: 4rem;
+}
+
+.left p {
+    font-size: 1.25rem;
+    padding-right: 5rem;
+
+}
