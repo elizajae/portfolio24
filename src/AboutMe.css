@@ -1,5 +1,5 @@
 h2.num {
-  font-family: "fir sans", monospace;
+  font-family: "fira sans", monospace;
   font-size: 35px;
   color: #b36076;
 }
@@ -22,6 +22,7 @@ p {
   margin: 0 auto;
   max-height: 500px;
   margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
 .about-me .num {

@@ -1,4 +1,5 @@
 import "./ProjectCard.css";
+import { Tooltip as ReactTooltip } from "react-tooltip";
 
 const icons = {
   react: (
@@ -250,6 +251,19 @@ const icons = {
   ),
 };
 
+const iconContent = {
+  react: "React",
+  javascript: "JavaScript",
+  typescript: "Typescript",
+  node: "Node.js",
+  express: "Express.js",
+  postgresql: "PostgreSQL",
+  sass: "Sass",
+  css: "CSS",
+  html: "HTML",
+  python: "Python",
+};
+
 const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
@@ -263,12 +277,21 @@ const ProjectCard = ({ project }) => {
         <h3>Technologies</h3>
         <div className="icons">
           {project.icons.map((icon, key) => (
-            <div className="icon-map" key={key}>
+            <div className="icon-map" data-tooltip-id={`icon-${key}`} key={key}>
               {icons[icon]}
             </div>
           ))}
         </div>
       </div>
+      {project.icons.map((icon, key) => (
+        <ReactTooltip
+          className="tooltip"
+          key={key}
+          place="bottom"
+          id={`icon-${key}`}
+          content={iconContent[icon]}
+        />
+      ))}
     </div>
   );
 };

@@ -4,5 +4,17 @@
   width: 100%;
   justify-content: space-between;
   max-width: 1200px;
+  margin: 0 auto;
   margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#num-2 {
+  color: #f4d06f;
+}
+#num-3 {
+  color: #2266bf;
+}
+#num-4 {
+  color: #5da474;
 }

@@ -1,7 +1,9 @@
 const ContactMe = () => {
   return (
     <div className="contact-me">
-      <h2 className="num">04.</h2>
+      <h2 className="num" id="num-4">
+        04.
+      </h2>
       <h2>Contact Me</h2>
       <p>
         I'm always looking for new opportunities to collaborate and connect with

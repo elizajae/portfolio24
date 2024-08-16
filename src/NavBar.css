@@ -1,39 +1,38 @@
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    width: 100%;
-    margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  margin-bottom: 5rem;
 }
 
 ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 li {
-    margin-left: 20px;
-    font-family: "fira sans", monospace;
+  margin-left: 20px;
+  font-family: "fira sans", monospace;
 }
 
 #one {
-    color: #B36076;
+  color: #b36076;
 }
 
 #two {
-    color: #F4D06F;
+  color: #f4d06f;
 }
 
 #three {
-    color: #2266BF;
+  color: #2266bf;
 }
 
 #four {
-    color: #5DA474;
+  color: #5da474;
 }
 
 h1 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
-

@@ -12,14 +12,14 @@ const projects = [
   {
     title: "Project 2",
     description:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet risus eu nunc vulputate egestas. Vestibulum ante ipsum primis in faucibus orci luctus et.",
     image: "/images/ethereal.png",
     icons: ["react", "javascript", "css", "html"],
   },
   {
     title: "Project 3",
     description:
-      "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur.",
+      "Praesent consequat, sapien id bibendum tincidunt, justo turpis condimentum justo, vel lacinia sapien lorem in nisi. Sed euismod lectus id ultricies pulvinar eget.",
     image: "/images/ethereal.png",
     icons: ["react", "javascript", "css", "html", "node", "postgresql", "sass"],
   },
@@ -28,7 +28,9 @@ const projects = [
 const Projects = () => {
   return (
     <div>
-      <h2 className="num">02.</h2>
+      <h2 className="num" id="num-2">
+        02.
+      </h2>
       <h2>Projects</h2>
       <div className="projects-container">
         {projects.map((project, key) => (
