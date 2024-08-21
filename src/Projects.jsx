@@ -10,11 +10,11 @@ const projects = [
     icons: ["react", "javascript", "css", "html", "node", "postgresql", "sass"],
   },
   {
-    title: "Project 2",
+    title: "Spotify Clone",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet risus eu nunc vulputate egestas. Vestibulum ante ipsum primis in faucibus orci luctus et.",
+      "A Spotify clone built with React, featuring a sidebar with playlists, a search bar, and user profile. It uses the Spotify Web API for real-time data and offers a sleek, modern UI.",
     image: "/images/ethereal.png",
-    icons: ["react", "javascript", "css", "html"],
+    icons: ["react", "javascript", "css", "html", "firebase"],
   },
   {
     title: "Project 3",
