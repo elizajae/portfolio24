@@ -13,7 +13,7 @@ const projects = [
     title: "Spotify Clone",
     description:
       "A Spotify clone built with React, featuring a sidebar with playlists, a search bar, and user profile. It uses the Spotify Web API for real-time data and offers a sleek, modern UI.",
-    image: "/images/ethereal.png",
+    image: "/images/spotify_clone.png",
     icons: ["react", "javascript", "css", "html", "firebase"],
   },
   {

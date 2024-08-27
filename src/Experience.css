@@ -1,3 +1,85 @@
+/* General Typography */
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #eceff4;
+  margin-bottom: 16px;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #d8dee9;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+/* Experience Section */
 .experience {
-  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+}
+
+/* Experience Container */
+.experience-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  background-color: #3b4252; /* Softer, modern background color */
+  border-radius: 16px;
+}
+
+/* Titles Section */
+.experience-titles {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #1e1e2c;
+  padding: 16px;
+  border-right: 1px solid #444b5b;
+  border-radius: 16px 0 0 16px; /* Rounded left corners */
+}
+
+.experience-title {
+  padding: 14px 20px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #d8dee9;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: #4c566a;
+  border-radius: 12px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.experience-title:hover {
+  background-color: #616e88; /* Slightly brighter on hover */
+}
+
+.experience-title.active {
+  background-color: #5e81ac; /* Use your accent color for active titles */
+  color: #eceff4;
+  font-weight: 600;
+}
+
+/* Content Section */
+.experience-content {
+  flex: 3;
+  border-radius: 0 16px 16px 0; /* Rounded right corners */
+  color: #eceff4;
+  position: relative;
+  overflow: hidden;
+}
+
+.experience-detail {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #d8dee9;
 }

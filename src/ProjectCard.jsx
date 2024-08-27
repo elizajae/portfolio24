@@ -297,7 +297,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
       <div
-        style={{ backgroundImage: "url(/images/ethereal.png)" }}
+        style={{ backgroundImage: `url(${project.image})` }}
         id="project-image"
       />
       <div className="card-content">
